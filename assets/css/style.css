@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+
+}
+h1,
+h2 {
+    margin:20px;
+}
+
+main {
+    padding:60px;
+}
+li {
+    display:inline;
+    padding:0px 20px;
+}
+a {
+    color:;
+}
+header,
+footer {
+    height:;
+    width:;
+    background-color:;
+}
+header {
+    position:center;
+    border-bottom:20px;
+}
+img {
+    display:;
+    margin:;
+}
+section {
+    margin-bottom: ;
+    padding:;
+    background-color:;
+}
+form {
+    padding:;
+    border:;
+
+}
+textarea {
+    width: ;
+    border:;
+}
+button {
+    height:;
+    width:;
+    background-color:;
+    color:;
+
+}
+.text1-center{
+    text-align: center;
+
+}
+.text2-right {
+    text-align: right;
+}
