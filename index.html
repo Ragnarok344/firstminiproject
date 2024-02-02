@@ -4,49 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  <title>My Landing Page</title>
+  <title>Jays Landing Page</title>
 </head>
 <body>
     <header>
-      <nav>
+      <nav class="text2-right">
         <ul>
           <li> <a href="https://github.com/">Github</a></li>
           <li> <a href="#">Portfolio</a></li>
-          <li> <a href="#contact">Contact</a></li>
+          <li> <a href="#">Contact</a></li>
         </ul>
         </nav>
     </header>
     <body>
-        <header>
-          <ul>
-            <li> <a href="https://github.com/Ragnarok344">GitGub</a></li>
-            <li> <a href="#">Portfolio</a></li>
-            <li> <a href="jeremyt89@ymail.com" Contact>Cotact Email</a></li>
-          </ul>
-        </header>
+      
         <main>
-            <h1>My new Website!</h1>
+            <h1 class="text1-center">Jays Contact website</h1>
+            <figure>
+              <img src="./assets/images/image-1.png" alt="Guy with coffee, codeing on a computer.">
+              <figcaption class="text1-center">Jay's Web Design Presentations And Portfolio</figcaption>
+            </figure>
             <section>
                 <h2>Contact Me</h2>
                 <form>
                   <ul>
-                    <li>
-                      <label class="text-right" for="name">Name:</label>
-                      <input type="text" id="name" name="user-name">
-                    </li>
-                    <li>
-                      <label class="text-right" for="email">Email:</label>
-                      <input type="text" id="email" name="user-email">
+                  <label for="firstName">First Name:</label>
+                  <input name="firstName" id="firstName" type="text" autocomplete="given-name" />
+
+                    <label for="lastName">Last Name:</label>
+                    <input name="lastName" id="lastName" type="text" autocomplete="family-name" />
+
+                        <label for="email">Email:</label>
+                        <input name="email" id="email" type="email" autocomplete="off" />
                     </li>
                   </ul>
-                  <div class="text-center">
+                  <div class="text1-center">
                     <button type="submit">SEND</button>
                   </div>
                 </form>
             </section>
         </main>
         <footer>
-            2024 Jeremy's website productions.
+          © 2024 Jay's website productions.
         </footer>
     </body>
     </html>
